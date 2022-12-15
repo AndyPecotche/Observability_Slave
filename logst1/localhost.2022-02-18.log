@@ -1,0 +1,6 @@
+18-Feb-2022 13:36:13.630 GRAVE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+18-Feb-2022 13:36:26.400 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+18-Feb-2022 13:36:26.414 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+18-Feb-2022 13:36:26.414 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+18-Feb-2022 13:36:26.414 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+18-Feb-2022 13:36:26.414 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ...done.

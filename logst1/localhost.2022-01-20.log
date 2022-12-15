@@ -1,0 +1,66 @@
+20-Jan-2022 19:08:15.657 GRAVE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+20-Jan-2022 19:08:16.010 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+20-Jan-2022 19:08:16.014 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+20-Jan-2022 19:08:16.014 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+20-Jan-2022 19:08:16.014 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+20-Jan-2022 19:08:16.014 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ...done.
+20-Jan-2022 19:10:20.759 GRAVE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+20-Jan-2022 19:10:21.027 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+20-Jan-2022 19:10:21.039 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+20-Jan-2022 19:10:21.039 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+20-Jan-2022 19:10:21.039 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+20-Jan-2022 19:10:21.040 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ...done.
+20-Jan-2022 19:58:20.472 ADVERTENCIA [Thread-3] org.apache.catalina.session.StandardSession.doWriteObject No puedo serializar atributo de sesión [suministro] para sesión [0BD8A34BEAB6079844404B4295A66D30]
+ java.io.NotSerializableException: ges.model.Interrupcion
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:897)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1145)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1497)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1553)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1510)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1667)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1065)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:267)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:382)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5370)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1382)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:969)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1382)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:969)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:475)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:990)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:711)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:808)
+
+20-Jan-2022 19:59:12.671 GRAVE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+20-Jan-2022 19:59:12.976 ADVERTENCIA [main] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute [suministro] for session [0BD8A34BEAB6079844404B4295A66D30]
+20-Jan-2022 19:59:13.193 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+20-Jan-2022 19:59:13.197 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+20-Jan-2022 19:59:13.197 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+20-Jan-2022 19:59:13.197 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+20-Jan-2022 19:59:13.197 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ...done.

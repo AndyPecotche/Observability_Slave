@@ -1,0 +1,11 @@
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/logout.do HTTP/1.1" 200 2968
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/js/common.js HTTP/1.1" 200 6295
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/css/google_materials_icons.css HTTP/1.1" 200 574
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/css/style.css HTTP/1.1" 200 3757
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/css/materialize.min.css HTTP/1.1" 200 115127
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/js/materialize.min.js HTTP/1.1" 200 142712
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/js/jquery-2.1.1.min.js HTTP/1.1" 200 84249
+172.27.180.10 - - [26/Dec/2021:22:05:58 +0000] "GET /ges/js/pentaho.js HTTP/1.1" 200 2352
+172.27.180.10 - - [26/Dec/2021:22:05:59 +0000] "GET /ges/images/logo.png HTTP/1.1" 200 343906
+172.27.180.10 - - [26/Dec/2021:22:05:59 +0000] "GET /ges/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 49236
+172.27.180.10 - - [26/Dec/2021:22:05:59 +0000] "GET /favicon.ico HTTP/1.1" 404 1022

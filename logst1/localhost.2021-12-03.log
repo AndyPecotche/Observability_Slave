@@ -1,0 +1,218 @@
+03-Dec-2021 17:59:15.293 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+03-Dec-2021 17:59:15.476 GRAVE [Catalina-utility-1] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [init] in web application [/ABSA_Ges_v2.9.7.2] threw load() exception
+ javax.servlet.ServletException
+	at ges.view.ServletInit.init(ServletInit.java:180)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1078)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:971)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1850)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:773)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:427)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1621)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+03-Dec-2021 17:59:15.482 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+03-Dec-2021 17:59:15.495 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+03-Dec-2021 17:59:15.495 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+03-Dec-2021 17:59:15.495 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+03-Dec-2021 17:59:15.495 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log ...done.
+03-Dec-2021 17:59:47.158 GRAVE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+03-Dec-2021 17:59:47.256 GRAVE [Catalina-utility-2] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [init] in web application [/ABSA_Ges_v2.9.7.2] threw load() exception
+ javax.servlet.ServletException
+	at ges.view.ServletInit.init(ServletInit.java:180)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1078)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:971)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1850)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:773)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:427)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1621)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+03-Dec-2021 17:59:47.256 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+03-Dec-2021 17:59:47.260 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+03-Dec-2021 17:59:47.260 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+03-Dec-2021 17:59:47.260 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+03-Dec-2021 17:59:47.260 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log ...done.
+03-Dec-2021 17:59:48.117 GRAVE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+03-Dec-2021 17:59:48.216 GRAVE [Catalina-utility-2] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [init] in web application [/GES] threw load() exception
+ javax.servlet.ServletException
+	at ges.view.ServletInit.init(ServletInit.java:180)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1078)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:971)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1868)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1621)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+03-Dec-2021 17:59:48.219 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+03-Dec-2021 17:59:48.222 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+03-Dec-2021 17:59:48.223 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+03-Dec-2021 17:59:48.223 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+03-Dec-2021 17:59:48.223 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log ...done.
+03-Dec-2021 18:00:59.663 GRAVE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+03-Dec-2021 18:00:59.759 GRAVE [Catalina-utility-2] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [init] in web application [/ges] threw load() exception
+ javax.servlet.ServletException
+	at ges.view.ServletInit.init(ServletInit.java:180)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1078)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:971)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1868)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1621)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+03-Dec-2021 18:00:59.760 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+03-Dec-2021 18:00:59.764 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+03-Dec-2021 18:00:59.764 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+03-Dec-2021 18:00:59.764 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+03-Dec-2021 18:00:59.764 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log ...done.
+03-Dec-2021 18:06:55.349 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/pages/*] only the HTTP methods [DELETE POST PUT] are covered. All other methods are uncovered.
+03-Dec-2021 18:06:55.678 GRAVE [main] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [init] in web application [/ges] threw load() exception
+ javax.servlet.ServletException
+	at ges.view.ServletInit.init(ServletInit.java:180)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1078)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:971)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1868)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:638)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:496)
+
+03-Dec-2021 18:06:55.679 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log configuring cewolf app..
+03-Dec-2021 18:06:55.685 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using storage class de.laures.cewolf.storage.TransientSessionStorage
+03-Dec-2021 18:06:55.685 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log using overlibURL etc/overlib.js
+03-Dec-2021 18:06:55.685 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log debugging is turned on
+03-Dec-2021 18:06:55.685 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ...done.

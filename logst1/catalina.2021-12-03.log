@@ -1,0 +1,102 @@
+03-Dec-2021 17:51:53.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+03-Dec-2021 17:51:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+03-Dec-2021 17:51:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+03-Dec-2021 17:51:53.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2021 17:51:53.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-163-generic
+03-Dec-2021 17:51:53.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2021 17:51:53.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+03-Dec-2021 17:51:53.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+03-Dec-2021 17:51:53.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+03-Dec-2021 17:51:53.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/lib/tomcat9
+03-Dec-2021 17:51:53.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+03-Dec-2021 17:51:53.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Dec-2021 17:51:53.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2021 17:51:53.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/lib/tomcat9
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp
+03-Dec-2021 17:51:53.107 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.3].
+03-Dec-2021 17:51:53.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+03-Dec-2021 17:51:53.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Dec-2021 17:51:53.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+03-Dec-2021 17:51:53.151 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2021 17:51:53.179 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [409] milliseconds
+03-Dec-2021 17:51:53.252 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2021 17:51:53.252 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+03-Dec-2021 17:51:53.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+03-Dec-2021 17:51:54.105 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 17:51:54.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [881] ms
+03-Dec-2021 17:51:54.145 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2021 17:51:54.159 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [980] milliseconds
+03-Dec-2021 17:59:14.247 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/var/lib/tomcat9/webapps/ABSA_Ges_v2.9.7.2.war]
+03-Dec-2021 17:59:15.286 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 17:59:15.699 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/var/lib/tomcat9/webapps/ABSA_Ges_v2.9.7.2.war] has finished in [1,452] ms
+03-Dec-2021 17:59:46.211 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ABSA_Ges_v2.9.7.2]
+03-Dec-2021 17:59:46.234 ADVERTENCIA [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ABSA_Ges_v2.9.7.2] registered the JDBC driver [com.informix.jdbc.IfxDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Dec-2021 17:59:46.241 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/var/lib/tomcat9/webapps/ABSA_Ges_v2.9.7.2.war]
+03-Dec-2021 17:59:47.153 INFORMACIÓN [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 17:59:47.390 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/var/lib/tomcat9/webapps/ABSA_Ges_v2.9.7.2.war] has finished in [1,149] ms
+03-Dec-2021 17:59:47.390 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/GES]
+03-Dec-2021 17:59:48.112 INFORMACIÓN [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 17:59:48.362 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/GES] has finished in [972] ms
+03-Dec-2021 18:00:58.888 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/GES]
+03-Dec-2021 18:00:58.903 ADVERTENCIA [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GES] registered the JDBC driver [com.informix.jdbc.IfxDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Dec-2021 18:00:58.905 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ges]
+03-Dec-2021 18:00:59.659 INFORMACIÓN [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 18:00:59.893 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ges] has finished in [988] ms
+03-Dec-2021 18:02:50.452 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ABSA_Ges_v2.9.7.2]
+03-Dec-2021 18:02:50.457 ADVERTENCIA [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ABSA_Ges_v2.9.7.2] registered the JDBC driver [com.informix.jdbc.IfxDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Dec-2021 18:06:52.580 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2021 18:06:52.586 INFORMACIÓN [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2021 18:06:52.767 ADVERTENCIA [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ges] registered the JDBC driver [com.informix.jdbc.IfxDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Dec-2021 18:06:52.776 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2021 18:06:52.780 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2021 18:06:53.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-163-generic
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/lib/tomcat9
+03-Dec-2021 18:06:53.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+03-Dec-2021 18:06:53.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Dec-2021 18:06:53.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Dec-2021 18:06:53.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Dec-2021 18:06:53.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+03-Dec-2021 18:06:53.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2021 18:06:53.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+03-Dec-2021 18:06:53.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/lib/tomcat9
+03-Dec-2021 18:06:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+03-Dec-2021 18:06:53.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp
+03-Dec-2021 18:06:53.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.3].
+03-Dec-2021 18:06:53.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+03-Dec-2021 18:06:53.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Dec-2021 18:06:53.441 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+03-Dec-2021 18:06:53.466 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+03-Dec-2021 18:06:53.484 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [388] milliseconds
+03-Dec-2021 18:06:53.528 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2021 18:06:53.528 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+03-Dec-2021 18:06:53.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+03-Dec-2021 18:06:54.337 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 18:06:54.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [836] ms
+03-Dec-2021 18:06:54.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ges]
+03-Dec-2021 18:06:55.340 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2021 18:06:55.821 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ges] has finished in [1,451] ms
+03-Dec-2021 18:06:55.824 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+03-Dec-2021 18:06:55.843 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2,358] milliseconds

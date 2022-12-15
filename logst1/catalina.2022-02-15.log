@@ -1,0 +1,200 @@
+15-Feb-2022 14:49:23.545 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+15-Feb-2022 14:49:23.554 INFORMACIÓN [Thread-3] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+15-Feb-2022 14:49:24.680 ADVERTENCIA [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ges] registró el conductor JDBC [com.informix.jdbc.IfxDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+15-Feb-2022 14:49:24.684 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+15-Feb-2022 14:49:24.704 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+15-Feb-2022 14:50:12.672 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+15-Feb-2022 14:50:12.673 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+15-Feb-2022 14:50:12.673 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.16.0
+15-Feb-2022 14:50:12.680 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-167-generic
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.18.04
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/lib/tomcat9
+15-Feb-2022 14:50:12.681 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+15-Feb-2022 14:50:12.744 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Feb-2022 14:50:12.744 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Feb-2022 14:50:12.744 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Feb-2022 14:50:12.745 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+15-Feb-2022 14:50:12.745 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Feb-2022 14:50:12.745 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+15-Feb-2022 14:50:12.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+15-Feb-2022 14:50:12.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Feb-2022 14:50:12.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Feb-2022 14:50:12.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Feb-2022 14:50:12.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Feb-2022 14:50:12.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/lib/tomcat9
+15-Feb-2022 14:50:12.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+15-Feb-2022 14:50:12.748 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp
+15-Feb-2022 14:50:12.748 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.21] con la versión APR [1.6.3].
+15-Feb-2022 14:50:12.748 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+15-Feb-2022 14:50:12.748 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15-Feb-2022 14:50:12.768 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1  11 Sep 2018]
+15-Feb-2022 14:50:12.860 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-80"]
+
+15-Feb-2022 14:50:13.008 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.714] milliseconds
+15-Feb-2022 14:50:13.101 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+15-Feb-2022 14:50:13.101 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+15-Feb-2022 14:50:13.117 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/var/lib/tomcat9/webapps/ROOT] de la aplicación web
+15-Feb-2022 14:50:14.588 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-Feb-2022 14:50:14.673 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [1.556] ms
+15-Feb-2022 14:50:14.673 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/var/lib/tomcat9/webapps/ges3] de la aplicación web
+15-Feb-2022 14:50:14.794 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error durante el despliegue del directorio [/var/lib/tomcat9/webapps/ges3] de la aplicación web
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1868)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:638)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:496)
+Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.JarResourceSet@754de353]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:724)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4783)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 37 more
+Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:143)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	... 44 more
+Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:212)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:149)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:140)
+	... 45 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.GeneratedConstructorAccessor7.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+	... 47 more
+Caused by: java.io.FileNotFoundException: /var/lib/tomcat9/webapps/ges3/WEB-INF/lib/log4j.jar (Permission denied)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1305)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1271)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:733)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:850)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:248)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:350)
+	... 51 more
+
+15-Feb-2022 14:50:14.810 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ges3] has finished in [136] ms
+15-Feb-2022 14:50:14.810 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/var/lib/tomcat9/webapps/ges] de la aplicación web
+15-Feb-2022 14:50:16.467 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-Feb-2022 14:50:16.783 GRAVE [main] org.apache.catalina.session.StandardManager.startInternal Excepción cargando sesiones desde almacenamiento persistente
+ java.io.InvalidClassException: org.apache.struts.config.FormBeanConfig; invalid descriptor for field name
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:797)
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:965)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1984)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1862)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2012)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1862)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2169)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1679)
+	at java.base/java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2464)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2358)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2196)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1679)
+	at java.base/java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2464)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2358)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2196)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1679)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:493)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:451)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1576)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1048)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5153)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1868)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:638)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:496)
+Caused by: java.lang.IllegalArgumentException: illegal signature
+	at java.base/java.io.ObjectStreamField.<init>(ObjectStreamField.java:124)
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:795)
+	... 63 more
+
+15-Feb-2022 14:50:17.530 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ges] has finished in [2.720] ms
+15-Feb-2022 14:50:17.536 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+15-Feb-2022 14:50:17.571 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [4.562] milliseconds
