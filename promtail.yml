@@ -15,14 +15,15 @@ scrape_configs:
   - targets:
       - localhost
     labels:
-      job: logst11
-      name: l11
+      job: logsSSH1
+      name: SSH1
       #hostname: ${hostname}
       __path__: /var/logst1/*log
   - targets:
-      - localhost
+      - Pre
     labels:
-      job: logst22
-      name: l23
+      job: logsPre
+      name: Preprod
       #hostname: ${hostname}
-      __path__: /var/logst2/*log
+      __path__: /home_server/javateam/logsTestBorrar/*/*log
+      
