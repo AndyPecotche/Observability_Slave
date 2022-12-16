@@ -13,17 +13,9 @@ scrape_configs:
 - job_name: Pre
   static_configs:
   - targets:
-      - localhost
-    labels:
-      job: logsSSH1
-      name: SSH1
-      #hostname: ${hostname}
-      __path__: /var/logst1/*log
-  - targets:
       - Pre
     labels:
       job: logsPre
       name: Preprod
-      #hostname: ${hostname}
-      __path__: /home_server/javateam/logsTestBorrar/*/*log
-      
+      #__path__: /home_server/javateam/logsTestBorrar/*/*log
+      __path__: ${direccion}
