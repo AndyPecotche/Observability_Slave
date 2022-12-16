@@ -63,9 +63,7 @@ services:
     env_file:
     - conf.env
     volumes:
-            #- ./logst1/:/var/logst1/ #directorio/s de la pc host donde estan los logs
-      # - ./logst2/:/var/logst2/ #directorio/s de la pc host donde estan los logs
-    - ${raizLogs}:${raizLogs}:ro
+    - /Web:/Web:ro #Directorio de mayor profundidad en comun a todos los logs de la pc host. (SOLO LECTURA)
     - /home/:/home_server:ro
     - /root/:/root_user:ro
     - ./promtail.yml:/etc/promtail/promtail.yml

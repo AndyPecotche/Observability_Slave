@@ -10,12 +10,17 @@ clients:
 
 scrape_configs:
 # Logs sistema
-- job_name: Pre
+- job_name: Prep
   static_configs:
   - targets:
-      - Pre
+      - Prepr
     labels:
-      job: tomcat-8036
-      name: Preprod
-      #__path__: /home_server/javateam/logsTestBorrar/*/*log
-      __path__: ${tomcat8036}
+      job: tomcat10
+      name: Preproduccion
+      __path__: ${tomcat10}*log
+  - targets:
+      - Prepr
+    labels:
+      job: tomcat8036
+      name: Preproduccion
+      __path__: ${tomcat8036}*log
