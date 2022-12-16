@@ -15,7 +15,7 @@ scrape_configs:
   - targets:
       - Pre
     labels:
-      job: logsPre
+      job: tomcat-8036s
       name: Preprod
       #__path__: /home_server/javateam/logsTestBorrar/*/*log
-      __path__: ${direccion}
+      __path__: ${tomcat-8036}
