@@ -1,0 +1,26 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: ${lokiURL}/loki/api/v1/push
+
+scrape_configs:
+# Logs sistema
+- job_name: Prep
+  static_configs:
+  - targets:
+      - Prepr
+    labels:
+      job: tomcat10
+      name: Preproduccion
+      __path__: ${tomcat10}*log
+  - targets:
+      - Prepr
+    labels:
+      job: tomcat8036
+      name: Preproduccion
+      __path__: ${tomcat8036}*log
