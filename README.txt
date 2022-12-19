@@ -1,0 +1,1 @@
+Ultima verion estable de slave
