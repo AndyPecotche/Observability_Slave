@@ -1,6 +1,6 @@
 global:
-  scrape_interval:     30s # El intervalo en el que se traerá las métricas
-  evaluation_interval: 30s # Evaluará las reglas cada 30 segundos, por defecto es cada minuto
+  scrape_interval:     5s # El intervalo en el que se traerá las métricas
+  evaluation_interval: 5s # Evaluará las reglas cada 30 segundos, por defecto es cada minuto
   
 scrape_configs:
 
