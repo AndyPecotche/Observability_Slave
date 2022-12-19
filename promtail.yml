@@ -10,17 +10,29 @@ clients:
 
 scrape_configs:
 # Logs sistema
-- job_name: Prep
+- job_name: Preproduccion
   static_configs:
   - targets:
-      - Prepr
+      - Preproduccion
     labels:
       job: tomcat10
       name: Preproduccion
       __path__: ${tomcat10}*log
   - targets:
-      - Prepr
+      - Prepro
+    labels:
+      job: tomcat10
+      name: Preproduccion
+      __path__: ${tomcat10}*txt
+  - targets:
+      - Preproduccion
     labels:
       job: tomcat8036
       name: Preproduccion
       __path__: ${tomcat8036}*log
+  - targets:
+      - Preproduccion
+    labels:
+      job: tomcat8036
+      name: Preproduccion
+      __path__: ${tomcat8036}*txt

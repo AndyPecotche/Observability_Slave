@@ -11,16 +11,16 @@ services:
     - '--path.rootfs=/host'
     restart: unless-stopped
     env_file:
-    - conf.env
+    - .env
     pid: host
     expose:
     - 9100
     volumes:
     - '/:/host:ro,rslave'
-      #   logging:
-      # driver: loki
-      #  options:
-      #   loki-url: "${lokiURL}/loki/api/v1/push" 
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://10.25.66.143:3100/loki/api/v1/push" 
 
   prometheus:
     image: prom/prometheus:latest #v2.28.1
@@ -28,23 +28,24 @@ services:
     container_name: slave_prometheus
     restart: unless-stopped
     env_file:
-    - conf.env
+    - .env
     ports:
     - 9090:9090
     volumes:
     - ./prometheus.yml:/etc/prometheus/prometheus.yml
     - prometheus-data:/prometheus
-      #  logging:
-            #    driver: loki
-      #    options:
-              #   loki-url: "${lokiURL}/loki/api/v1/push"  
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://10.25.66.143:3100/loki/api/v1/push"  
 
   cadvisor:
     image: gcr.io/cadvisor/cadvisor:latest #v0.38.6
+    privileged: true
     container_name: slave_cAdvisor
     restart: unless-stopped
     env_file:
-    - conf.env
+    - .env
     expose:
     - 8080
     volumes:
@@ -52,17 +53,17 @@ services:
     - /var/run:/var/run:rw
     - /sys:/sys:ro
     - /var/lib/docker/:/var/lib/docker:ro
-      # logging:
-      # driver: loki
-      # options:
-              #   loki-url: "${lokiURL}/loki/api/v1/push"
+    logging:
+       driver: loki
+       options:
+        loki-url: "http://10.25.66.143:3100/loki/api/v1/push"
 
   promtail:
     image: grafana/promtail:latest
     container_name: slave_promtail
     restart: unless-stopped
     env_file:
-    - conf.env
+    - .env
     volumes:
     - /Web:/Web:ro #Directorio de mayor profundidad en comun a todos los logs de la pc host. (SOLO LECTURA)
     - /home/:/home_server:ro
@@ -70,7 +71,7 @@ services:
     - ./promtail.yml:/etc/promtail/promtail.yml
    #- ./positions.yaml:/tmp/positions.yaml
     command: -config.file=/etc/promtail/promtail.yml -config.expand-env=true # env vars
-    # logging:
-    #  driver: loki
-    #  options:
-    #    loki-url: "${lokiURL}/loki/api/v1/push"
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://10.25.66.143:3100/java/loki/api/v1/push"
