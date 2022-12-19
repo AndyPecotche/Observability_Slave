@@ -5,7 +5,7 @@ volumes:
 
 services:
   node_exporter:
-    image: quay.io/prometheus/node-exporter:v1.2.2
+    image: quay.io/prometheus/node-exporter:latest #v1.2.2
     container_name: slave_node_exporter
     command:
     - '--path.rootfs=/host'
@@ -23,7 +23,8 @@ services:
       #   loki-url: "${lokiURL}/loki/api/v1/push" 
 
   prometheus:
-    image: prom/prometheus:v2.28.1
+    image: prom/prometheus:latest #v2.28.1
+    user: root
     container_name: slave_prometheus
     restart: unless-stopped
     env_file:
@@ -39,7 +40,7 @@ services:
               #   loki-url: "${lokiURL}/loki/api/v1/push"  
 
   cadvisor:
-    image: gcr.io/cadvisor/cadvisor:v0.38.6
+    image: gcr.io/cadvisor/cadvisor:latest #v0.38.6
     container_name: slave_cAdvisor
     restart: unless-stopped
     env_file:

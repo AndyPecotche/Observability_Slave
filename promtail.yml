@@ -12,12 +12,14 @@ scrape_configs:
 # Logs sistema
 - job_name: Prep
   static_configs:
-#  - targets:
-#      - Prepr
+  - targets:
+      - Prepr
     labels:
       job: tomcat10
       name: Preproduccion
       __path__: ${tomcat10}*log
+  - targets:
+      - Prepr
     labels:
       job: tomcat8036
       name: Preproduccion
