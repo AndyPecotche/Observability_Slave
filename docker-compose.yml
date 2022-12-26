@@ -20,7 +20,7 @@ services:
     logging:
       driver: loki
       options:
-        loki-url: "http://10.25.66.143:3100/loki/api/v1/push" 
+        loki-url: "http://10.25.65.48:3100/loki/api/v1/push" 
 
   prometheus:
     image: prom/prometheus:latest #v2.28.1
@@ -37,7 +37,7 @@ services:
     logging:
       driver: loki
       options:
-        loki-url: "http://10.25.66.143:3100/loki/api/v1/push"  
+        loki-url: "http://10.25.65.48:3100/loki/api/v1/push"  
 
   cadvisor:
     image: gcr.io/cadvisor/cadvisor:latest #v0.38.6
@@ -52,11 +52,12 @@ services:
     - /:/rootfs:ro
     - /var/run:/var/run:rw
     - /sys:/sys:ro
-    - /var/lib/docker/:/var/lib/docker:ro
+   # - /var/lib/docker/:/var/lib/docker:ro
+    - /mnt/wsl/docker-desktop-data:/var/lib/docker:ro
     logging:
        driver: loki
        options:
-        loki-url: "http://10.25.66.143:3100/loki/api/v1/push"
+        loki-url: "http://10.25.65.48:3100/loki/api/v1/push"
 
   promtail:
     image: grafana/promtail:latest
@@ -75,4 +76,4 @@ services:
     logging:
       driver: loki
       options:
-        loki-url: "http://10.25.66.143:3100/java/loki/api/v1/push"
+        loki-url: "http://10.25.65.48:3100/java/loki/api/v1/push"

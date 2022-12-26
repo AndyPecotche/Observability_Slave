@@ -10,11 +10,11 @@ clients:
 
 scrape_configs:
 # Logs sistema
-- job_name: Preproduccion
+- job_name: MiPC
   static_configs:
   - targets:
-      - Preproduccion
+      - MIPC
     labels:
       job: system
       name: miPc
-      __path__: /var/log
+      __path__: /var/log/*log
