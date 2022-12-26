@@ -15,24 +15,6 @@ scrape_configs:
   - targets:
       - Preproduccion
     labels:
-      job: tomcat10
-      name: Preproduccion
-      __path__: ${tomcat10}*log
-  - targets:
-      - Prepro
-    labels:
-      job: tomcat10
-      name: Preproduccion
-      __path__: ${tomcat10}*txt
-  - targets:
-      - Preproduccion
-    labels:
-      job: tomcat8036
-      name: Preproduccion
-      __path__: ${tomcat8036}*log
-  - targets:
-      - Preproduccion
-    labels:
-      job: tomcat8036
-      name: Preproduccion
-      __path__: ${tomcat8036}*txt
+      job: system
+      name: miPc
+      __path__: /var/log

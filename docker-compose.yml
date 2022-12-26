@@ -65,7 +65,8 @@ services:
     env_file:
     - .env
     volumes:
-    - /Web:/Web:ro #Directorio de mayor profundidad en comun a todos los logs de la pc host. (SOLO LECTURA)
+    #- /Web:/Web:ro #Directorio de mayor profundidad en comun a todos los logs de la pc host. (SOLO LECTURA)
+    - /var/log:/var/log:ro
     - /home/:/home_server:ro
     - /root/:/root_user:ro
     - ./promtail.yml:/etc/promtail/promtail.yml
