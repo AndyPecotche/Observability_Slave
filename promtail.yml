@@ -10,11 +10,11 @@ clients:
 
 scrape_configs:
 # Logs sistema
-- job_name: MiPC
+- job_name: Observability_Server
   static_configs:
   - targets:
-      - MIPC
+      - Observability_Server
     labels:
       job: system
-      name: miPc
+      name: logs_system_Observability_server
       __path__: /var/log/*log

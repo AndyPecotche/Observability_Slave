@@ -1,6 +1,6 @@
 global:
-  scrape_interval:     5s # El intervalo en el que se traerá las métricas
-  evaluation_interval: 5s # Evaluará las reglas cada 30 segundos, por defecto es cada minuto
+  scrape_interval:     15s # El intervalo en el que se traerá las métricas
+  evaluation_interval: 15s # Evaluará las reglas cada 30 segundos, por defecto es cada minuto
   
 scrape_configs:
 
@@ -9,7 +9,7 @@ scrape_configs:
     - targets: ['node_exporter:9100']
 
   - job_name: cadvisor
-    scrape_interval: 30s
+    scrape_interval: 15s
     static_configs:
     - targets:
       - cadvisor:8080
