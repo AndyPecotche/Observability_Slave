@@ -1,7 +1,7 @@
 version: "3.7"
 
-  #volumes:
-  #prometheus-data:
+volumes:
+ prometheus-data:
 
 services:
   node_exporter:
@@ -30,10 +30,10 @@ services:
     env_file:
     - .env
     ports:
-    - 9091:9091
+    - 9090:9090
     volumes:
     - ./prometheus.yml:/etc/prometheus/prometheus.yml
-    - ./prometheus-data:/prometheus
+    - prometheus-data:/prometheus
     logging:
       driver: loki
       options:
@@ -65,7 +65,7 @@ services:
     env_file:
     - .env
     volumes:
-    #- /Web:/Web:ro #Directorio de mayor profundidad en comun a todos los logs de la pc host. (SOLO LECTURA)
+    - /Web:/Web:ro #descomentar en preproduccion
     - /var/log:/var/log:ro
     - /home/:/home_server:ro
     - /root/:/root_user:ro

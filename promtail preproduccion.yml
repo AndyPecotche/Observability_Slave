@@ -36,3 +36,9 @@ scrape_configs:
       job: tomcat8036
       name: Preproduccion
       __path__: ${tomcat8036}*txt
+  - targets:
+      - Preproduccion
+    labels:
+      job: system
+      name: Preproduccion
+      __path__: /var/log/*log
